@@ -1,0 +1,53 @@
+#maindiv{
+    background-color:dimgrey;
+}
+.home{
+    display:inline-block;
+    padding:5%;
+}
+.profile>img{
+    height: 320px;
+    width:18%;
+    padding:0.4%;
+    background-color:gray ;
+    margin-right:5%;
+    float:left;
+}
+#hello{
+background-color:gray ;
+padding:1%
+}
+#skills{
+    background-color:gray;
+    padding:1%;
+    text-align: center;
+}
+.skills-info{
+    text-align: center;
+}
+#education{
+    background-color:gray;
+    padding:1%;
+    text-align: center;
+}
+.education-info{
+    text-align: center;
+}
+.contact{
+    background-color:gray;
+    padding:1%;
+    text-align: center;
+}
+#gmap{
+    float:left;
+    margin-left:5%;
+    margin-right:5%;
+}
+.Footer{
+    text-align: center;
+    background-color:gray ;
+    font-family:sans-serif;
+}
+#fpadding{
+    padding-bottom: 30%;
+}
