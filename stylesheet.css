@@ -1,53 +1,100 @@
-#maindiv{
-    background-color:dimgrey;
+body{
+    background-color:rgb(39, 38, 38);
+    margin:0;
+    font-family: 'Roboto Condensed', sans-serif;
 }
+a{
+    text-decoration:none;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;	
+	font-family: 'Overlock', cursive;
+}
+p{
+	margin:0;
+}
+/*--home--*/
 .home{
     display:inline-block;
-    padding:5%;
+    color:#fff;
+    padding:4em 0;
 }
-.profile>img{
+.profile img{
     height: 320px;
-    width:18%;
-    padding:0.4%;
-    background-color:gray ;
-    margin-right:5%;
+    width:15%;
+    border: 5px solid #fff;
     float:left;
+    margin-left: 8%;
+    margin-right: 5%;
 }
-#hello{
-background-color:gray ;
-padding:1%
+.about h1{
+    font-size: 2.5em;
+    color:#fff;
+    margin: 0.5em 0 0;
 }
-#skills{
-    background-color:gray;
-    padding:1%;
+.about h2{
+    font-size: 1.2em;
+    color: #000;
+    background:#fff;
+    display: inline-block;
+    padding: .5em 1.5em;
+    position: relative;
+}
+.about h2:before {
+    width: 0;
+    height: 0;
+    position: absolute;
+    content: '';
+    bottom: -9px;
+    left: 12px;
+    border-style: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: #fff transparent transparent transparent;
+}
+.about h6{
+    font-size: 1em;
+    color: #fff;
+    margin-top: 0.8em;
+    letter-spacing: 6px;
+}
+/*--//home--*/
+.skills{
     text-align: center;
 }
-.skills-info{
+.skills-img{
     text-align: center;
 }
-#education{
-    background-color:gray;
-    padding:1%;
+.education{
+    padding:5em 0;
     text-align: center;
+    color: #fff;
 }
-.education-info{
+h3.title {
+    font-size: 4em;
     text-align: center;
+    color: #008B8B;
+    border-bottom: 4px double rgba(247, 197, 106, 0.35);
+    padding-bottom: 0.2em;
+	margin-bottom: 1em;
+}
+p {
+    font-size: 1.1em;
+    color: #999;
+    line-height: 1.8em;
 }
 .contact{
-    background-color:gray;
-    padding:1%;
     text-align: center;
+    padding-bottom: 2cm;
 }
 #gmap{
-    float:left;
-    margin-left:5%;
-    margin-right:5%;
+    width: 100%;
+    min-height: 29.5em;
+    border: none;
 }
-.Footer{
+.footer{
+    border-top: 4px double rgba(247, 197, 106, 0.35);
+    padding: 3em 0;
+    padding-bottom: 0;
     text-align: center;
-    background-color:gray ;
-    font-family:sans-serif;
-}
-#fpadding{
-    padding-bottom: 30%;
+    color:#fff;
 }
