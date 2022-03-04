@@ -21,7 +21,7 @@ h3.title {
 }
 p {
     font-size: 1.1em;
-    color: rgb(167, 165, 165);
+    color:#999;
     line-height: 1.8em;
     margin:0;
 }
@@ -98,6 +98,9 @@ p {
     padding: 1cm;
     display: inline-block;
 }
+.contact p{
+    color:rgb(243, 233, 233)
+}
 #gmap{
     min-height: 13em;
     border: none;
@@ -152,11 +155,10 @@ p {
 /*--//Contact--*/
 /*--Footer--*/
 .footer{
-    border-top: 4px double rgba(247, 197, 106, 0.35);
     padding: 2em 0;
-    padding-bottom: 0;
     text-align: center;
     color:#fff;
     font-size: 1em;
+    background-color: rgb(29, 27, 27);
 }
 /*--//Footer--*/
