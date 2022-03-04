@@ -97,6 +97,7 @@ p {
 .contact{
     padding: 1cm;
     display: inline-block;
+    padding:0;
 }
 .contact p{
     color:rgb(243, 233, 233)
