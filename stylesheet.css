@@ -84,7 +84,7 @@ p {
 .education{
     padding:4em 0;
     text-align: center;
-    color: #fff;
+    color:#fff;
     font-size: 1.3em;
 }
 .education p{
@@ -93,6 +93,11 @@ p {
     font-size: 0.8em;
 }
 /*--//Education--*/
+/*--myproject--*/
+.myproject{
+    text-align: center;
+    padding-bottom: 4em;
+}
 /*--Contact--*/
 .contact{
     padding: 1cm;
